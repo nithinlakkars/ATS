@@ -1,0 +1,26 @@
+/* LeadsDashboard.css */
+
+.sidebar-hover {
+  width: 60px;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  position: fixed;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.sidebar-hover:hover {
+  width: 200px;
+}
+
+.sidebar-hover ul {
+  padding-left: 0;
+}
+
+.sidebar-hover li {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
